@@ -1,22 +1,17 @@
-# cloud-server
+i stole garbomuffin's code and made it unlimited
 
-A cloud data server for Scratch 3. Used by [forkphorus](https://forkphorus.github.io/) and [TurboWarp](https://turbowarp.org/).
 
-It uses a protocol very similar to Scratch 3's cloud variable protocol. See doc/protocol.md for further details.
+variables can be infintely long, there are NO username/chat filters, and it uses the same architecture as the original
 
-## Restrictions
 
-This server does not implement long term variable storage. All data is stored only in memory (never on disk) and are removed promptly when rooms are emptied or the server restarts.
-
-This server also does not implement history logs.
 
 ## Setup
 
 Needs Node.js and npm.
 
 ```
-git clone https://github.com/TurboWarp/cloud-server
-cd cloud-server
+git clone https://github.com/lazerkatsweirdstuff/cloud-server-unlimited
+cd cloud-server-unlimited
 npm install
 npm start
 ```
